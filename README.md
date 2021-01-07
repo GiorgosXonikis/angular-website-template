@@ -1,4 +1,3 @@
-# nba-app
+# Website template
 
-An app which consumes the free NBA api from:
-https://rapidapi.com/theapiguy/api/free-nba/endpoints
+Contains the Landing Page and two more Views with different styling
