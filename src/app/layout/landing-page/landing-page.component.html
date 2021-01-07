@@ -1,17 +1,3 @@
-<!-- Navbar -->
-<div class="navbar">
-    <div class="container flex">
-        <h1>NBA API</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="features.html">Features</a></li>
-                <li><a href="docs.html">Docs</a></li>
-            </ul>
-        </nav>
-    </div>
-</div>
-
 <!-- Showcase -->
 <section class="showcase">
     <div class="container grid">
@@ -21,7 +7,7 @@
                 Deploy web apps of all kinds, from large scale enterprise APIs to static websites for individuals.
                 Fill out the form to try a demo of our platform
             </p>
-            <a href="features.html" class="btn btn-outline">Read More</a>
+            <a [routerLink]="'features'" class="btn btn-outline">Read More</a>
         </div>
 
         <div class="showcase-form card">
@@ -90,7 +76,7 @@
         <div class="text-center">
             <h2 class="lg">Extreme Cloud Hosting</h2>
             <p class="lead my-1">Cloud hosting like you've never seen. Fast, efficient and scalable</p>
-            <a href="features.html" class="btn btn-dark">Read More</a>
+            <a [routerLink]="'features'" class="btn btn-dark">Read More</a>
         </div>
         <img src="/assets/images/cloud.png" alt="">
     </div>
@@ -132,26 +118,3 @@
         </div>
     </div>
 </section>
-
-<!-- Footer -->
-<footer class="footer bg-dark py-5">
-    <div class="container grid grid-3">
-        <div>
-            <h1>NBA API</h1>
-            <p>Copyright &copy; 2021</p>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="features.html">Features</a></li>
-                <li><a href="docs.html">Docs</a></li>
-            </ul>
-        </nav>
-        <div class="social">
-            <a href=""><fa-icon [icon]="faGithub" class="fab fa-2x"></fa-icon></a>
-            <a href=""><fa-icon [icon]="faFacebook" class="fab fa-2x"></fa-icon></a>
-            <a href=""><fa-icon [icon]="faInstagram" class="fab fa-2x"></fa-icon></a>
-            <a href=""><fa-icon [icon]="faTwitter" class="fab fa-2x"></fa-icon></a>
-        </div>
-    </div>
-</footer>
