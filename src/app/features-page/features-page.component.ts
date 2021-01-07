@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { faServer, faNetworkWired, faLaptopCode, faDatabase, faPowerOff } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-features-page',
@@ -6,6 +7,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./features-page.component.scss']
 })
 export class FeaturesPageComponent implements OnInit {
+  faServer = faServer;
+  faNetworkWired = faNetworkWired;
+  faLaptopCode = faLaptopCode;
+  faDatabase = faDatabase;
+  faPowerOff = faPowerOff;
+
+
 
   constructor() { }
 

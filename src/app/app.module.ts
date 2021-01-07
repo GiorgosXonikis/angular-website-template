@@ -6,6 +6,7 @@ import {RouterModule, Routes} from '@angular/router';
 import {LandingPageComponent} from './layout/landing-page/landing-page.component';
 import {FeaturesPageComponent} from './features-page/features-page.component';
 import {DocsPageComponent} from './docs-page/docs-page.component';
+import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
 
 const routes: Routes = [
     {
@@ -32,6 +33,7 @@ const routes: Routes = [
         RouterModule.forRoot(routes),
         BrowserModule,
         LayoutModule,
+        FontAwesomeModule,
     ],
     bootstrap: [
         AppComponent

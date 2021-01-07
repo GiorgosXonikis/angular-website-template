@@ -57,6 +57,18 @@ body {
   transform: scale(0.98);
 }
 
+code,
+pre {
+  background: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+.hidden {
+  visibility: hidden;
+  height: 0;
+}
+
 /* Backgrounds & colored buttons */
 .bg-primary,
 .btn-primary {
@@ -141,7 +153,7 @@ body {
   margin: 15px 0;
 }
 
-.alert i {
+.alert fa-icon {
   margin-right: 10px;
 }
 
